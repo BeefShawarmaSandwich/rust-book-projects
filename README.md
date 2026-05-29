@@ -1,4 +1,4 @@
-# rust-projects
+# rust-book-projects
 
 5/26/27
 
