@@ -1,0 +1,8 @@
+[package]
+name = "guessing_game"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# note: the guide says to use the 0.8.5 version, but there is likely a newer version of the crate, so I put an asterisk instead because a google search says that you can do that :)
+rand = "*"
