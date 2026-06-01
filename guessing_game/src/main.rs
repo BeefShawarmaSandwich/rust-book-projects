@@ -14,7 +14,7 @@ fn main() {
         I don't think that rand::thread_rng() works in the latest version of the rand crate, I checked docs.rs and I think I found the solution based on what I wrote below
         */
 
-        let random_number = random_range(1..=100);
+   let random_number = random_range(1..=100);
 
     loop {
         println!("Enter a whole number.");
@@ -24,8 +24,6 @@ fn main() {
             .read_line(&mut guess)
             .expect("Failed to read your input.");
         
-        println!("The random number is: {random_number}");
-
         let guess: u32 = match guess.trim()
             .parse() {
                 Ok(num) => num,
