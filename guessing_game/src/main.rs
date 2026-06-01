@@ -4,7 +4,6 @@ use rand::random_range;
 
 fn main() {
 	
-
     println!("Welcome to my guessing game!");
     
         /*
